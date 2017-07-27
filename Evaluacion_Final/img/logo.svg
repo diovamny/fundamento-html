@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<svg width="208" height="80" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Logo</title>
+  <text font-style="normal" stroke="#a34949" transform="matrix(2.5415053367614746,0,0,1.9230768680572508,-336.71224880218506,-121.38460779190062) " font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_2" y="96.808439" x="172.528156" opacity="0.9" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#3f2a2a">DG</text>
+  <line transform="rotate(-179.51651000976562 100.46582794189453,68.54612731933594) " id="svg_1" y2="68.04613" x2="176.999206" y1="69.04613" x1="23.932447" opacity="0.35" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none" stroke="#bf7676"/>
+  <ellipse stroke="#d64a4a" ry="16" rx="30.999999" id="svg_3" cy="49" cx="71.999999" opacity="0.35" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ce3131"/>
+  <ellipse id="svg_4" stroke="#d64a4a" ry="16" rx="30.999999" cy="48.5" cx="129.999999" opacity="0.35" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ce3131"/>
+  <line id="svg_5" y2="30.5" x2="100" y1="16.5" x1="46" opacity="0.9" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#d64a4a" fill="none"/>
+  <line transform="rotate(150.64224243164062 126.99999999999999,23.499999999999993) " id="svg_6" y2="30.5" x2="154" y1="16.5" x1="100" opacity="0.9" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#d64a4a" fill="none"/>
+ </g>
+</svg>

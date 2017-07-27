@@ -1,0 +1,96 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" title="Diovamny Garcia">
+    <meta name="description" title="Hoja de Vida">
+    <title>Hoja de Vida</title>
+  </head>
+  <body>
+    <header>
+      <svg width="155" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+       <g>
+        <title>Logo</title>
+        <text fill="#3f2a2a" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" opacity="0.9" x="163.478401" y="90.568439" id="svg_2" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve" font-weight="bold" transform="matrix(2.5415053367614746,0,0,1.9230768680572508,-336.71224880218506,-121.38460779190062) " stroke="#a34949" font-style="normal">DG</text>
+        <line stroke="#bf7676" fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" opacity="0.35" x1="0.932447" y1="57.04613" x2="153.999206" y2="56.04613" id="svg_1" transform="rotate(-179.51651000976562 77.46582794189452,56.54612731933594) "/>
+        <ellipse fill="#ce3131" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" opacity="0.35" cx="44.999999" cy="36" id="svg_3" rx="30.999999" ry="16" stroke="#d64a4a"/>
+        <ellipse fill="#ce3131" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" opacity="0.35" cx="106.999999" cy="36.5" rx="30.999999" ry="16" stroke="#d64a4a" id="svg_4"/>
+        <line fill="none" stroke="#d64a4a" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" opacity="0.9" x1="23" y1="4.5" x2="77" y2="18.5" id="svg_5"/>
+        <line fill="none" stroke="#d64a4a" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" opacity="0.9" x1="77" y1="4.5" x2="131" y2="18.5" id="svg_6" transform="rotate(150.64224243164062 103.99999999999999,11.500000000000002) "/>
+       </g>
+      </svg>
+      <h1>Hoja de Vida</h1>
+      <h2>Diovamny Garcia</h2>
+      <nav>
+        <ul>
+          <li> <a href="../index.html">Inicio</a> </li>
+          <li> <a href="#">Educación</a></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h2>Educación</h2>
+      <table border="1">
+        <thead>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culmino?</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2013</td>
+            <td>Diplomado de Programación en Java</td>
+            <td>Instituto Tecnológico de las Américas</td>
+            <td>si</td>
+          </tr>
+          <tr>
+            <td>2015</td>
+            <td>Diplomado de Base de Datos SQL</td>
+            <td>Instituto Tecnológico de las Américas</td>
+            <td>si</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>Licenciatura en Informática</td>
+            <td>Universidad Autónoma De Santo Domingo</td>
+            <td>no</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+    </br>
+      <form name="Agregar Educación"  action="educacion.html" method="post" autocomplete="true">
+        <hr/>
+            <h2>Agregar Estudios</h2>
+            <p>
+              <label for="ano">Año: </label>
+              <input type="number"max="2017" min="1900" name="ano" id="ano" value="2017">
+            </p>
+            <p>
+              <label for="institucion">Institución: </label>
+              <input type="text" name="institución" id="institucion" required>
+            </p>
+            <p>
+              <label for="lugar">Lugar: </label>
+              <textarea name="name" id="lugar" rows="8"  cols="32"></textarea>
+            </p>
+            <p>
+              <label for="lugar">¿Culmino?: </label>
+              <input type="radio" name="lugar" id="lugar" value="1" checked>Si</input>
+              <input type="radio" name="lugar" id="lugar" value="2">No</input>
+            </p>
+            <button type="submit" name="button">submit</button>
+      </form>
+    </section>
+    <footer>
+      <p>@Derecho Reservados</p>
+      <ul>
+        <li><strong>Email: </strong>diovamny@gmail.com</li>
+        <li><strong>Teléfono: </strong>829-923-0428</li>
+        <li><strong>Dirección: </strong>Casa: 9, Los Surieles, Las charcas, Santiago, R. D.</li>
+      </ul>
+    </footer>
+  </body>
+</html>
